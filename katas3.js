@@ -65,10 +65,9 @@ function kata4() {
     return "Kata-4: " + total.join(', ')
 
 }
-
-
-
 console.log(kata4())
+
+
 
 function kata5() { 
 // implemente o código do kata 5 aqui
