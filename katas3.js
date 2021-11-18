@@ -1,19 +1,27 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 17, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
+function showResults(result){
+    console.log(result)
+   
+}
+
 function kata1() { 
 // implemente o código do kata 1 aqui
+   
     let total = []
-
+    
     for (let i = 1; i <= 25; i++) {
 
         total.push(i)
 
+
     }
 
-    return "Kata-1: " + total.join(', ')
+    showResults("Kata-1: " + total.join(', '))
+    return total
 
 }
-console.log(kata1())
+kata1()
 
 
 
@@ -26,11 +34,11 @@ function kata2() {
         total.push(i)
 
     }
-
-    return "Kata-2: " + total.join(', ')
+    showResults("Kata-2: " + total.join(', '))
+    return total
 
 }
-console.log(kata2())
+kata2()
 
 
 
@@ -44,11 +52,11 @@ function kata3() {
         total.push(i * -1)
 
     }
-
-    return "Kata-3: " + total.join(', ')
+    showResults("Kata-3: " + total.join(', '))
+    return total
 
 }
-console.log(kata3())
+kata3()
 
 
 
@@ -61,11 +69,11 @@ function kata4() {
         total.push(i * -1)
 
     }
-
-    return "Kata-4: " + total.join(', ')
+    showResults("Kata-4: " + total.join(', '))
+    return total
 
 }
-console.log(kata4())
+kata4()
 
 
 
@@ -78,11 +86,11 @@ function kata5() {
         total.push(i)
 
     }
-
-    return "Kata-5: " + total.join(', ')
+    showResults("Kata-5: " + total.join(', '))
+    return total
 
 }
-console.log(kata5())
+kata5()
 
 
 
@@ -99,11 +107,11 @@ function kata6() {
         }
 
     }
-
-    return "Kata-6: " + total.join(', ')
+    showResults("Kata-6: " + total.join(', '))
+    return total
 
 }
-console.log(kata6())
+kata6()
 
 
 
@@ -120,11 +128,11 @@ function kata7() {
         }
 
     }
-
-    return "Kata-7: " + total.join(', ')
+    showResults("Kata-7: " + total.join(', '))
+    return total
 
 }
-console.log(kata7())
+kata7()
 
 
 
@@ -141,11 +149,11 @@ function kata8() {
         }
 
     }
-
-    return "Kata-8: " + total.join(', ')
+    showResults("Kata-8: " + total.join(', '))
+    return total
 
 }
-console.log(kata8())
+kata8()
 
 
 
@@ -162,11 +170,11 @@ function kata9() {
         }
 
     }
-
-    return "Kata-9: " + total.join(', ')
+    showResults("Kata-9: " + total.join(', '))
+    return total
 
 }
-console.log(kata9())
+kata9()
 
 
 
@@ -179,11 +187,11 @@ function kata10() {
         total.push(sampleArray[i])
 
     }
-
-    return "Kata-10: " + total.join(', ')
+    showResults("Kata-10: " + total.join(', '))
+    return total
 
 }
-console.log(kata10())
+kata10()
 
 
 
@@ -200,11 +208,11 @@ function kata11() {
         }
 
     }
-
-    return "Kata-11: " + total.join(', ')
+    showResults("Kata-11: " + total.join(', '))
+    return total
 
 }
-console.log(kata11())
+kata11()
 
 
 
@@ -221,11 +229,11 @@ function kata12() {
         }
 
     }
-
-    return "Kata-12: " + total.join(', ')
+    showResults("Kata-12: " + total.join(', '))
+    return total
 
 }
-console.log(kata12())
+kata12()
 
 
 
@@ -242,11 +250,11 @@ function kata13() {
         }
 
     }
-
-    return "Kata-13: " + total.join(', ')
+    showResults("Kata-13: " + total.join(', '))
+    return total
 
 }
-console.log(kata13())
+kata13()
 
 
 
@@ -259,11 +267,11 @@ function kata14() {
         total.push(sampleArray[i] ** 2)
 
     }
-
-    return "Kata-14: " + total.join(', ')
+    showResults("Kata-14: " + total.join(', '))
+    return total
 
 }
-console.log(kata14())
+kata14()
 
 
 
@@ -276,11 +284,11 @@ function kata15() {
         result += i
 
     }
-
-    return "Kata-15: " + result
+    showResults("Kata-15: " + result)
+    return result
 
 }
-console.log(kata15())
+kata15()
 
 
 
@@ -293,11 +301,11 @@ function kata16() {
         result += sampleArray[i]
 
     }
-
-    return "Kata-16: " + result
+    showResults("Kata-16: " + result)
+    return result
 
 }
-console.log(kata16())
+kata16()
 
 
 
@@ -315,11 +323,11 @@ function kata17() {
         }
 
     }
-
-    return "Kata-17: " + sampleArray[resultMin]
+    showResults("Kata-17: " + sampleArray[resultMin])
+    return resultMin
 
 }
-console.log(kata17())
+kata17()
 
 
 
@@ -337,11 +345,11 @@ function kata18() {
         }
 
     }
-
-    return "Kata-18: " + sampleArray[resultMax]
+    showResults("Kata-18: " + sampleArray[resultMax])
+    return resultMax
 
 }
-console.log(kata18())
+kata18()
 
 
 
